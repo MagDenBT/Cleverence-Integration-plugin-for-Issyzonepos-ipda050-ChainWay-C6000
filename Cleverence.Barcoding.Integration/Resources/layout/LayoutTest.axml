@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:minWidth="25px"
+    android:minHeight="25px"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/scrollView1">
+    <LinearLayout
+        android:orientation="vertical"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/linearLayout1">
+        <TextView
+            android:text="Device Id:"
+            android:layout_width="match_parent"
+            android:layout_height="30.0dp"
+            android:id="@+id/textDeviceId" />
+        <TextView
+            android:text="Has Keyboard:"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textHasKeyboard" />
+        <TextView
+            android:text="Scanner Status:"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textScannerStatus" />
+        <TextView
+            android:text="Scan Result:"
+            android:layout_width="match_parent"
+            android:layout_height="60.0dp"
+            android:id="@+id/textResult" />
+        <Button
+            android:text="Create Device Object"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonCreate" />
+        <Button
+            android:text="Start Scan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonStartScan" />
+        <Button
+            android:text="Stop Scan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonStopScan" />
+        <Button
+            android:text="Dispose Device Object"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonDispose" />
+        <Button
+            android:text="EAN13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonEan13" />
+        <Button
+            android:text="PDF417"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonPdf417" />
+        <Button
+            android:text="DataMatrix"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonDataMatrix" />
+        <Button
+            android:text="Settings"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonSettings" />
+        <Button
+            android:text="Exit test"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonExit" />
+    </LinearLayout>
+</ScrollView>

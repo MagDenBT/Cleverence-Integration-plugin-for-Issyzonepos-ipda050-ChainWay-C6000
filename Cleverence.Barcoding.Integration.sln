@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cleverence.Barcoding.Integration", "Cleverence.Barcoding.Integration\Cleverence.Barcoding.Integration.csproj", "{CF44E369-CCCB-430D-8E06-74D77F78A30F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cleverence.Integration.Plugin", "Cleverence.Integration.Plugin\Cleverence.Integration.Plugin.csproj", "{BC6B3A34-5F13-4B37-87D4-52E30FE0DB81}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CF44E369-CCCB-430D-8E06-74D77F78A30F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF44E369-CCCB-430D-8E06-74D77F78A30F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF44E369-CCCB-430D-8E06-74D77F78A30F}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{CF44E369-CCCB-430D-8E06-74D77F78A30F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF44E369-CCCB-430D-8E06-74D77F78A30F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF44E369-CCCB-430D-8E06-74D77F78A30F}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{BC6B3A34-5F13-4B37-87D4-52E30FE0DB81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC6B3A34-5F13-4B37-87D4-52E30FE0DB81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC6B3A34-5F13-4B37-87D4-52E30FE0DB81}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{BC6B3A34-5F13-4B37-87D4-52E30FE0DB81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC6B3A34-5F13-4B37-87D4-52E30FE0DB81}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC6B3A34-5F13-4B37-87D4-52E30FE0DB81}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
